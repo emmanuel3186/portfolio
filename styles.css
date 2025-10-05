@@ -1,66 +1,31 @@
- @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Bigshot+One&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@1,300&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
- @import url('https://fonts.googleapis.com/css2?family=Lumanosimo&display=swap');
- 
- body { background-image:repeating-radial-gradient( rgb(6, 152, 94),rgb(227, 106, 106)); font-family: Arial, sans-serif; margin: 0; padding: 0; }
-  header {  color: black; padding: 10px 0; text-align: center; }
-  nav ul { list-style: none; padding: 0;font-family: "Lobster", sans-serif;
-  font-weight: 10;
-  font-style: italic; }
-  nav ul li { display: inline-block; margin: 0 15px;  }
-  nav ul li a { color: black; text-decoration: none; text-align: right;}
-  main { padding: 20px; }
-   h2, h3 { color:black; }
-  .skills-list { list-style-type: square; }
-  .portfolio-item { border: 1px solid #ccc; padding: 10px; margin-bottom: 10px; background-color: #fff; }
-  .portfolio-item img { max-width: 100%; height: auto; }
-  button { background-color: #333; color: #fff; border: none; padding: 10px 20px; cursor: pointer; margin-top: 50px;font-family: "Lumanosimo", cursive;
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barriecito&display=swap');
+body{ background-image: url(https://images.pexels.com/photos/698907/pexels-photo-698907.jpeg?_gl=1*1tybxlw*_ga*MTM2MDk5MjA0MS4xNzU5NjEzMDIy*_ga_8JE65Q40S6*czE3NTk2MTMwMjEkbzEkZzEkdDE3NTk2MTQ2MDUkajQzJGwwJGgw); background-size: cover; background-position: center; background-repeat: no-repeat; display: flex;align-items: center; justify-content: center;}
+main{ background-color: rgba(255, 255, 255, 0.8); padding: 20px; border-radius: 10px; max-width: 500px; margin: auto; margin-top: 30px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);}
+img{ max-width: 100%; border-radius: 10px; margin-top: 10px;}
+h1{ text-align: center; color:black; margin-bottom: 5px;font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
   font-weight: 400;
-  font-style: normal; }
-  button:hover { background-color: #555; }
-  .images { width: 200px; height: 300px; border-radius: 50%; float: right; margin-right:100px; margin-top: 30px;}
-  hr { border: 0; height: 5px; background: #333; margin: 5px 0; width: 60px;}
-  .contact { border: 0; height: 5px; background: #333; margin: 5px 0; width: 120px; text-align: center;}
-    .about { border: 0; height: 5px; background: #333; margin: 5px 0; width: 99px;}
-      .blog { border: 0; height: 5px; background: #333; margin: 5px 0; width: 82px;}
-        .services { border: 0; height: 5px; background: #333; margin: 5px 0; width: 120px;}
-          .skills { border: 0; height: 5px; background: #333; margin: 5px 0; width: 92px;}
-  h2{ color: #333; text-align: left; margin-top: 40px; margin-bottom: -5px; font-family: "Fascinate", system-ui;
-  font-weight: 500;
-  font-style: italic;}
-  h3{ color: #333; text-align: left; margin-top: 30px; margin-bottom: 20px; font-size: 30px; font-family: "Bigshot One", serif;
-  font-weight: 500;
-  font-style: normal;}
-  #home,#about, #skill, #services, #blog, #contact { margin-top: 50px; margin-bottom: 150px; }
-  #home p{ font-size: 25px; line-height: 1.6; color: black; font-family: "JetBrains Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal; }
-  #about p{ font-size: 20px; line-height: 1.6; color: black;  font-family: "JetBrains Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal; }
-  #skill li{ font-size: 20px; line-height: 1.6; color: black;  font-family: "JetBrains Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal; }
-  #services p{ font-size: 20px; line-height: 1.6; color: black;  font-family: "JetBrains Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal; }
-  #blog p{ font-size: 20px; line-height: 1.6; color: black;  font-family: "JetBrains Mono", monospace;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: normal; }
-  #blog h3{ font-size: 25px; line-height: 1.6; color: #333; font-family: "Bigshot One", serif;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50; font-size: 50px; margin-top: 10px;
+}
+p{ text-align: center; color:black; font-size: 15px;font-family: "Rouge Script", cursive;
   font-weight: 400;
-  font-style: normal; }
-  #contact{ text-align: center;}
-  .mail{display: inline-block; margin-top:50px; padding-right: 50px;}
-  .mail a{ text-decoration:none; font-size: 20px; color: blueviolet; font-family: "Courier Prime", monospace;
+  font-style: normal; font-size: 25px; }
+ul{ list-style-type: none; padding: 0; }
+li{ background-color: #f0f0f0; margin: 5px 0; padding: 10px; border-radius: 5px; text-align: center; font-weight: bold; color: #333;font-family: "Stick No Bills", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal; font-size: 20px; }
+.rsvp-button {display:block; width: auto; padding: 10px; background-color: #4CAF50; color: white; border: none; border-radius: 5px; font-size: 16px; cursor: pointer; margin-top: 10px; text-align: center; text-decoration: none; transition: all 0.3s ease;font-family: "Barriecito", system-ui;
   font-weight: 400;
-  font-style: italic; }
-a:hover{ color: black; }
-
+  font-style: normal; font-size: 20px;}
+.rsvp-button:hover{ background-color: #45a049; transform: scale(1.05);}
+h2{ text-align: center; color:black; margin-top: 20px;font-family: "Rye", serif;
+  font-weight: 400;
+  font-style: normal; font-size: 30px;}
